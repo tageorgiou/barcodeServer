@@ -1,0 +1,8 @@
+Elixir==0.7.1
+Flask==0.8
+Flask-Restless==0.4-dev
+Jinja2==2.6
+SQLAlchemy==0.7.5
+Werkzeug==0.8.3
+python-dateutil==1.5
+wsgiref==0.1.2
