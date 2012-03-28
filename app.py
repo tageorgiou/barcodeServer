@@ -9,8 +9,9 @@ class Tube(flask.ext.restless.Entity):
     contents = Field(Unicode)
     barcode = Field(Unicode, unique=True)
     username = Field(Unicode)
+    data = Field(Unicode)
 # that, the definition of the model is exactly the same.
-metadata.bind = create_engine('sqlite:////tmp/test.db')
+metadata.bind = create_engine('sqlite:///test.db')
 metadata.bind.echo = False
 setup_all()
 create_all()
